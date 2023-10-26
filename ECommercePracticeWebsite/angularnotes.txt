@@ -1,0 +1,31 @@
+module.exports = function () - create node modules in json server for storing data manually
+default port for json server is 3000 and of 4 digit we can use any port
+
+to get data from json server
+first from terminal run command npm install json-server@0.12.1 --save-dev
+then, after npm install run npm run json in different terminal
+then in package.json add "json": "json-server data.js -p 3500" in scripts section and create data.js file in project and add data
+
+root level entities didnt directly assist model level entities
+
+Model - structure(product.model.ts) - data(static.datasource.ts) - repository
+
+template - component - repository - restdatasource
+a-module - to get whole module code then edit it
+a-directive
+a-component
+
+custom directive
+reactive forms
+
+firstly, model module then store module then atlast app module get loaded
+
+SERVER
+   services                      ModelModule
+   feature components            StoreModule
+   root components               AppModule
+BROWSER
+
+
+$event - default subscriber to last fired event
+
